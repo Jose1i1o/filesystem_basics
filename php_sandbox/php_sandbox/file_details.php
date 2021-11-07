@@ -16,7 +16,7 @@
 *
 */
 
-$filepath = __DIR__ . 'sonnet.txt';
+$filepath = __DIR__ . '/sonnet.txt';
 
 echo is_readable($filepath) ? "The file can be read" : "The file can't be read";
 echo '<br />';
@@ -25,4 +25,19 @@ echo '<br />';
 echo is_executable($filepath) ? "The file can be executed" : "The file can't be executed";
 echo '<br />';
 
-echo filemtime($filepath);
+echo filemtime($filepath) . '<br />';
+echo strftime('%m/%d/%Y %H:%M', filemtime($filepath)) . '<br />';
+echo strftime('%m/%d/%Y %H:%M', filectime($filepath)) . '<br />';
+echo strftime('%m/%d/%Y %H:%M', fileatime($filepath)) . '<br />';
+
+$path = pathinfo($filepath);
+
+echo $path['dirname'] . '<br />';
+echo $path['basename'] . '<br />';
+echo $path['filename'] . '<br />';
+echo $path['extension'] . '<br />';
+
+echo '<br />';
+
+echo dirname($filepath) . '<br />';
+echo basename($filepath) . '<br />';

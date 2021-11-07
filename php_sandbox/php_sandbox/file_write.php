@@ -9,7 +9,7 @@
 
 $filepath = __DIR__ . '/sample_file.txt';
 
-$handle = fopen($filepath, 'w'); // overwrite existing file
+$handle = fopen($filepath, 'w'); // overwrite existing file and adds information at the end of the file.
 if ($handle) {
     fwrite($handle, 'Hello World');
     fwrite($handle, '123456789');
