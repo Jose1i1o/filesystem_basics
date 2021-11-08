@@ -1,0 +1,18 @@
+2021-11-07 17:19:12 - TEST
+2021-11-07 17:19:12 - LOGIN: jsmith logged in
+2021-11-07 17:19:12 - LOGOUT: jsmith logged out
+2021-11-07 17:19:13 - TEST
+2021-11-07 17:19:13 - LOGIN: jsmith logged in
+2021-11-07 17:19:13 - LOGOUT: jsmith logged out
+2021-11-07 17:19:14 - TEST
+2021-11-07 17:19:14 - LOGIN: jsmith logged in
+2021-11-07 17:19:14 - LOGOUT: jsmith logged out
+2021-11-07 17:19:14 - TEST
+2021-11-07 17:19:14 - LOGIN: jsmith logged in
+2021-11-07 17:19:14 - LOGOUT: jsmith logged out
+2021-11-07 17:21:17 - TEST
+2021-11-07 17:21:17 - LOGIN
+2021-11-07 17:21:17 - LOGOUT
+2021-11-07 17:21:23 - TEST
+2021-11-07 17:21:23 - LOGIN: jsmith logged in
+2021-11-07 17:21:23 - LOGOUT: jsmith logged out
